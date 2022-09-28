@@ -1,6 +1,6 @@
 from random import randint
 import logging
-logging.basicConfig(level=logging.DEBUG, format=" %(asctime)s - %(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(filename ='use_loggiingLog.txt', level=logging.DEBUG, format=" %(asctime)s - %(asctime)s - %(levelname)s - %(message)s")
 
 def main():
     counter = 0
